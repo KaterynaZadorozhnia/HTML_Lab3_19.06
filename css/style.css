@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+}
+.grid_container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 32vh 32vh 32vh;
+    grid-template-areas:
+            "i1 i2 i3 i3 i3 i3 i4 i4 i4"
+            "i1 i2 i3 i3 i3 i3 i4 i4 i4"
+            "i5 i6 i6 i7 i7 i7 i8 i8 i8";
+}
+.grid_item1 {
+    grid-area: i1;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item2 {
+    grid-area: i2;
+    background-image: url("../img/2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item3 {
+    grid-area: i3;
+    background-image: url("../img/3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item4 {
+    grid-area: i4;
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item5 {
+    grid-area: i5;
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item6 {
+    grid-area: i6;
+    background-image: url("../img/6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item7 {
+    grid-area: i7;
+    background-image: url("../img/7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.grid_item8 {
+    grid-area: i8;
+    background-image: url("../img/8.jpg");
+    background-size: cover;
+    background-position: center;
+}
